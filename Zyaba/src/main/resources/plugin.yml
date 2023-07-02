@@ -1,0 +1,14 @@
+name: Zyaba
+version: '${project.version}'
+main: me.mrbedrockpy.zyaba.Zyaba
+api-version: 1.16
+
+commands:
+  region:
+    description: Управляет регионами
+    aliases:
+      - r
+      - rg
+    usage:
+      - /region create <name> <radius>
+      - /region join <region> <target>

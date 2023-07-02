@@ -1,0 +1,12 @@
+name: Zyaba
+version: '0.1'
+main: me.mrbedrockpy.zyaba.Zyaba
+api-version: 1.16
+
+commands:
+  region:
+    description: Управляет регионами
+    aliases:
+      - r
+      - rg
+    usage: /region set <name>
